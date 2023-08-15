@@ -1,0 +1,15 @@
+@media (max-width: 375px) {
+   .center {
+      padding-left: 16px;
+      padding-right: 16px;
+   }
+   .header {
+      
+   }
+   .header__logo {
+      width: 343px;
+      height: 77.436px;
+      text-align: center;
+      font-size: 32px;
+   }
+}
