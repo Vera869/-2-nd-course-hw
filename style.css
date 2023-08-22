@@ -20,7 +20,6 @@ body {
    flex-direction: column;
    justify-content: center;
    gap: 32px;
-   
 }  
 .header__logo {
    width: 788.778px;
@@ -115,6 +114,7 @@ body {
    .header {
       display: flex;
       align-items: center;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000915 100%), url(img/backgraund-big-mobile.jpg), lightgray 50% / cover no-repeat;
    }
    .header__logo {
       width: 343px;
