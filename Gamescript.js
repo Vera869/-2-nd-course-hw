@@ -1,6 +1,4 @@
 
-//let monthNumber = Number(prompt("Укажите номер месяца"));
-
  function gameMonth () {
    let monthNumber = Number(prompt("Укажите номер месяца"));
    if (monthNumber < 0 || monthNumber > 13) {
@@ -21,4 +19,4 @@
       }
    }
  }
- //console.log(gameMonth());     
+
