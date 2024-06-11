@@ -1,4 +1,6 @@
+
 * {
+   
    margin: 0;
    padding: 0;
 }
@@ -20,6 +22,7 @@ body {
    flex-direction: column;
    justify-content: center;
    gap: 32px;
+   
 }  
 .header__logo {
    width: 788.778px;
@@ -58,14 +61,14 @@ body {
    border-color: #EB443F;
    background: #EB443F;
 }
-.footer {
+.games {
    background: #000915;
    display: flex;
    column-gap: 32px;
    padding-top: 128px;
    padding-bottom: 128px;
 }
-.footer__item {
+.games__item {
    width: 379px;
    height: 300px;
    color: #FFF;
@@ -104,8 +107,112 @@ body {
 .item3:hover {
    outline: 3px solid #44D2FF;
 }
+.gameOne__content{
+   background: #000915;
+   padding-top: 282px;
+   
+   display: flex;
+   flex-direction: row;
+   gap: 135px;
+}
+.gameOne {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}  
+.gameOne__logo {
+   color: #FFF;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.gameOne__text {
+   width: 584px;
+   color: #FFF;   
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 32px; /* 177.778% */
+}
+.gameOne__button {
+   width: 234.063px;
+   height: 48.603px;
+   border-radius: 30px;
+   border-color: #9C0332;
+   background: #9C0332;
+   color: #FFF;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.gameOne__button:hover {
+   border-color: #EB443F;
+   background: #EB443F;
+}
+.gameOne__img {
+   width: 485px;
+   height: 333px;
+   margin-top: -50px;
+   margin-right: -4px;
+   padding-bottom: 233px;
+  
+}
+.gametwo__content{
+   background: #000915;
+   padding-top: 282px;
+   
+   display: flex;
+   flex-direction: row;
+   gap: 135px;
+}
+.gametwo__img {
+   width: 481px;
+   height: 322px;
+   padding-bottom: 233px;
+  
+}
+.gametwo {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+   padding-right: -4px;
+}  
+.gametwo__logo {
+   color: #FFF;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.gametwo__text {
+   width: 588px;
+   color: #FFF;   
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 300;
+   line-height: 32px; /* 177.778% */
+}
+.gametwo__button {
+   width: 234.063px;
+   height: 48.603px;
+   border-radius: 30px;
+   border-color: #9C0332;
+   background: #9C0332;
+   color: #FFF;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+.gametwo__button:hover {
+   border-color: #EB443F;
+   background: #EB443F;
+}
 
-/* Мобильная версия */
+/* мобильная версия*/
+
 @media (max-width: 375px) {
    .center {
       padding-left: 16px;
@@ -118,7 +225,6 @@ body {
    }
    .header__logo {
       width: 343px;
-      height: 77.436px;
       text-align: center;
       font-size: 32px;
       padding-top: 239px;
@@ -136,15 +242,64 @@ body {
       margin-bottom: 238px;
       box-sizing: border-box;
    }
-   .footer {
+   .games {
       flex-direction: column;
       align-content: center;
       justify-content: center;
       align-items: center;
       gap: 32px;
    }
-   .footer__item {
+   .games__item {
       width: 343px;
    }
+      /* игровое поле*/
 
+   .gameOne__content{
+      padding-top: 51px;
+      flex-direction: column;
+   }
+   .gameOne {
+      align-items: center;
+      text-align: center;
+   }  
+   .gameOne__logo {
+      font-size: 32px;
+   }
+   .gameOne__text {
+      width: 343px;
+      font-size: 14px;
+      line-height: 22px;
+   }
+   .gameOne__img {
+      padding-bottom: 85px;
+      width: 344px;
+      height: 236px;
+   }
+
+   .video_game-img {
+      width: 344px;
+      height: 236px;
+   }
+
+   .gametwo__content{
+      padding-top: 51px;
+      flex-direction: column-reverse;
+      gap: 64px;
+   }
+   .gametwo__img {
+      width: 344px;
+      height: 90px;
+   }
+   .gametwo {
+      align-items: center;
+      text-align: center;
+   }  
+   .gametwo__logo {
+      font-size: 32px;
+   }
+   .gametwo__text {
+      width: 343px;
+      font-size: 14px;
+      line-height: 22px;
+   }
 }
